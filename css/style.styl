@@ -1,0 +1,118 @@
+@import 'icon.styl'
+@import 'nib'
+backgroud 
+	color #DDD
+	font-family Josefin Sans
+	
+.Header
+	background-color #273B47
+	height 150px
+	width 100%
+	&-Containerlogo
+		margin 0
+		display inline-block
+		float left
+	&-logo
+		width 150px
+.Social-list
+	margin 0 .6em 0 0
+.Social-item
+	margin-top 7.5em 
+	display inline-block
+	float right	
+.Social-icon
+	color white
+	text-decoration none
+	font-size 1.3em
+	padding .1em
+.button-Containermenu
+	padding-top 0.5em
+	padding-left 1.2em
+	background-color black
+.button-menu
+	color white
+	font-size 1.5em
+	text-decoration none
+.Menu
+	display block
+	background-color black	
+	&-list
+		margin 0
+		padding 0
+	&-item
+		list-style none
+		text-align center
+	&-link
+		font-family Josefin Sans
+		text-decoration none
+		color white
+		padding 1em
+		display block
+		&:hover
+			background-color #273B47
+			transition .4s linear
+.mostrar
+	display none
+// Video //
+.Video
+	&-article
+		text-align center
+	&-title
+		font-size 1.5em
+		font-family Josefin Sans
+		font-weight bold
+	&-iframe
+		width 350px
+		height 230px
+.Work
+	&-article
+		margin-right 2em
+		margin-bottom 5em
+		display block
+		text-align center
+	&-title
+		font-family Josefin Sans
+	&-imageContainer
+		margin 0
+	&-img
+		transform scale(1,1)
+		transition-timing-function ease-out
+		transition-duration 250ms
+		width 307px
+		height 90px
+		&:hover
+			transform scale(1.12,1.12)
+			transition-timing-function ease-out
+			transition-duration 100ms
+	&-description
+		font-family Josefin Sans			
+
+@media screen and (min-width: 1066px)
+	.Social-icon
+		font-size 1.6em
+	.mostrar
+		display block
+	.button-Containermenu
+		display none
+	.Menu
+		padding 0
+		&-list
+			text-align center
+			padding-left 0
+			 margin-right 10em
+		&-item
+			display inline-block
+			padding auto
+			margin auto
+		&-link
+			padding 1em
+	.Video
+
+		&-iframe
+			width 560px
+			height 400px
+	.Work
+		&-article
+			display inline-block
+			width 30%
+	
